@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <main>
+      <h1 id="title">Form #1</h1>
+      <p id="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, eius vitae? Velit nobis quasi corrupti tempora porro ipsam facilis labore molestiae placeat quidem. Atque incidunt veritatis assumenda, unde minus cupiditate! </p>
+
+      <form action="#" id="survey-form">
+          <div class="info">
+              <label for="name" id="name-label">Name</label>
+              <input type="text" id="name" placeholder="Enter name" required>
+          </div>
+
+          <div class="info">
+            <label for="email" id="email-label">Email</label>
+            <input type="email" id="email" placeholder="Enter email" required>
+        </div>
+
+        <div class="info">
+            <label for="number" id="number-label">Age</label>
+            <input type="number" id="number" min="18" max="99" placeholder="Enter age">
+        </div>
+
+
+        <div class="info">
+            <label for="situation" id="situation">Situation :</label>
+            <select id="dropdown" name="situations">
+                <option value="employed">Employed</option>
+                <option value="student">Student</option>
+                <option value="unemployed">Unemployed</option>
+              </select>
+        </div>
+
+        <div class="info">
+           <input type="radio" id="car" name="locomotion" value="car">
+           <label for="car">Has a car</label>
+           <input type="radio" id="public" name="locomotion" value="public">
+           <label for="car">Take public transports</label>
+        </div>
+
+
+        <div class="info">
+            <input type="checkbox" id="randomvalue1" name="random-items" value="randomvalue1">
+            <label for="car">Random value</label>
+            <input type="checkbox" id="randomvalue2" name="random-items" value="randomvalue2">
+            <label for="car">Additionnal Random value</label>
+         </div>
+
+         <div class="info story-area">
+           <label for="more">Tell us more:</label>
+           <textarea name="story" id="story" cols="33" rows="5" placeholder="Anything about you"></textarea>
+         </div>
+         <button id="submit">Submit</button>
+
+
+      </form>
+    </main>
+  </body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>

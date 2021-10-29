@@ -1,0 +1,53 @@
+*, ::after, ::before{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Zen Kurenaido', sans-serif;
+    background-color: #eee;
+}
+
+main{
+    width: 60%;
+    height: 50%;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+#description{
+    text-align: justify;
+    margin-bottom: 1%;
+}
+
+.story-area{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+
+#story{
+    color: blue;
+    outline: none;
+    resize: none;
+    border: none;
+    padding: 5px;
+}
+
+button{
+    border-radius: 99px;
+padding: 10px;
+outline: none;
+border: none;
+background-color: blue;
+color: #eee;
+display: block;
+margin: 10px auto;}
